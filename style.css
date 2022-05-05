@@ -1,0 +1,36 @@
+body
+{
+    background-color: black;
+}
+
+.dice-link-button
+{
+    background-color: antiquewhite;
+    border-color: rgb(78, 13, 138);
+    border-width: 5px;
+    height: 45px;
+    width: 205px;
+    border-radius: 22.5px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-family: fantasy;
+    font-size: 30px;
+    transition: background-color 0.5s;
+}
+
+.dice-link-button:hover
+{
+    background-color: black ;
+    border-color: rgb(78, 13, 138);
+    box-shadow: 4px 4px 10px rgb(107, 107, 107);
+    transition: box-shadow 0.2s;
+}
+
+.greating
+{
+    font-size: 45px;
+    font-family: fantasy ;
+    color:rgb(78, 13, 138);
+    font-weight: lighter;
+    text-align: center;
+}
